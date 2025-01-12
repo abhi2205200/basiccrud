@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('/images/bgimg/main.webp') no-repeat center center/cover;
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+   
+}
+#page2{
+    max-width: 400px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+}
+#page3{
+            max-width: 400px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+}
+
+#page2 h2{
+    color: green;
+}
+#page3 h2{
+    color: blue;
+}
+
+/* Styles for product cards */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+.btn-dlt{
+    color:  white;
+    background-color: red;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+   text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-crt{
+    color: white;
+    background-color: green;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+   text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav{
+   
+    transform: translate(1030px,-1390px);
+    margin: 10px;
+    padding: 0;
+
+}
+.btn-lg {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    height: 20px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
